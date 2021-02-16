@@ -1,0 +1,44 @@
+@media (min-width: $screen-sm) {
+  .container {
+    max-width: 540px;
+  }
+
+  .modal {
+    width: 85%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, .3);
+
+    &__body {
+      max-height: calc(95% - 78px);
+    }
+  }
+}
+
+@media (min-height: $screen-sm) {
+  .start-menu {
+    &__list {
+      &--active {
+        max-height: 210px;
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-md) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: $screen-lg) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: $screen-xl) {
+  .container {
+    max-width: 1140px;
+  }
+}

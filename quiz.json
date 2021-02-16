@@ -1,0 +1,95 @@
+[
+  {
+    "question": "Inside which HTML element do we put the JavaScript?",
+    "choices": [
+      "<javascript>",
+      "<scripting>",
+      "<script>",
+      "<js>"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Where is the correct place to insert a JavaScript?",
+    "choices": [
+      "The <body> section",
+      "Both the <head> section and the <body> section are correct",
+      "The <head> section"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+    "choices": [
+      "<script src=\"xxx.js\">",
+      "<script href=\"xxx.js\">",
+      "<script name=\"xxx.js\">"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How to write an IF statement in JavaScript?",
+    "choices": [
+      "if i = 5",
+      "if i == 5 then",
+      "if i = 5 then",
+      "if (i == 5)"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "How does a WHILE loop start?",
+    "choices": [
+      "while (i <= 10; i++)",
+      "while (i <= 10)",
+      "while i = 1 to 10"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "choices": [
+      "Math.rnd(7.25)",
+      "rnd(7.25)",
+      "round(7.25)",
+      "Math.round(7.25)"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "JavaScript is the same as Java?",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Is JavaScript case-sensitive?",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the correct way to write a JavaScript array?",
+    "choices": [
+      "let colors = [\"red\", \"green\", \"blue\"]  ",
+      "let colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+      "let colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+      "let colors = \"red\", \"green\", \"blue\""
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How do you write \"Hello World\" in an alert box?",
+    "choices": [
+      "alertBox(\"Hello World\");",
+      "msgBox(\"Hello World\");",
+      "msg(\"Hello World\");",
+      "alert(\"Hello World\");"
+    ],
+    "answer": 4
+  }
+]

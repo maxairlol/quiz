@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Quiz - Game</title>
+
+    <!-- Main CSS File -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <div class="game__top">
+                <div class="game__item">
+                    <div class="game__item-prefix">Question</div>
+                    <h2 class="game__item-text" id="counter"></h2>
+                </div>
+                <div class="game__item">
+                    <div class="game__item-prefix">Score</div>
+                    <h2 class="game__item-text" id="score">0</h2>
+                </div>
+            </div>
+            <div class="questions-box">
+                <h2 class="questions-box__question"></h2>
+                <div class="questions-box__choices"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JS File -->
+    <script src="js/game.js" type="module"></script>
+</body>
+</html>
